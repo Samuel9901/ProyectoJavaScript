@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Numero Mayor</title>
+</head>
+<body>
+    <script>
+        //Pedir numeros
+        let N1 = prompt('Primer Numero');
+        let N2 = prompt('Segundo numero');
+        let N3 = prompt('Tercer numero');
+
+        //Imprimir los 3 numeros ingresados
+        document.write("Primer Numero: "+N1)
+        document.write("<br>Segundo Numero: "+N2)
+        document.write("<br>Tercer Numero: "+N3)
+        if(N1>N2){
+            if(N1>N3){
+                document.write("<br><br>Numero Mayor: "+N1)
+            }else{
+                document.write("<br><br>Numero Mayor: "+N3)
+            }
+        }else{
+            if(N2>N3){
+                document.write("<br><br>Numero Mayor: "+N2)
+            }else{
+                document.write("<br><br>Numero Mayor: "+N3)
+            }
+        }
+    </script>
+</body>
+</html>
